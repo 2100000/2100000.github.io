@@ -2,71 +2,144 @@ html{
 background-color: #783525;  
 }
 body{
-    background-color:#aa9a7e ;
+background-color:#aa9a7e ;
 width:95%;
 margin:40px 20px ;
 border:5px solid #aa9a7e ;
+font-size: 120%;
 }
   .carousel-inner img {
       width: 100%;
       height: 100%;
+    z-index: 1;
   }
 
-.headline{
+  #content{
+  margin-top: 100px    
+  }
+
+#center{
+    text-align: center;
+}
+.carousel{
+ z-index: 0;   
+}
+
+#headline{
 background-color: #783525;
 color:white;
 width:600px;
 border:5px solid #d3793a;
-padding:9px 20px;
-margin:40px;
-z-index:1;
-margin:auto;
-/*position:absolute;*/
-
+padding:9px 15px;
+z-index:2;
+top:0;
+text-align: center;
+margin-top: -90px;
+position: relative;
+}
+.navbar-nav{
+  margin-left: 20%;
+}
+h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
 }
 
 #video{
 margin:40px 30px;
-padding: 10px 20px; 
-
+padding: 20px 20px; 
 }
 
 #info{
 margin:40px 60px;
 padding:10px;
-
+color:white;
 }
+
+li.donut{
+background: url("../img/donut logo2.png")no-repeat left top; 
+list-style-type:none;
+padding-left:7px;
+padding-top:-6px;
+}
+
 #comment{
-    width:30%;
+width:60%;
+}
+label #center {
+
 }
 
-
-h2{text-align:center;}
+h2{text-align:center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 h1{
-   color:white; 
+color:white; 
 }
 
+
+.container{
+ margin: 40px;
+}
 .col{
 color:white;
 padding:50px;
 }
-
-h3{ text-align:center;
-
+#photoz{
+width:100px;    
 }
+
+h3{text-align:center;
+}
+
+
 #center{
-text-align:center;    
+text-align:center;   
+}
+#map{float:right;
 }
 
 #spacing{
-margin: 10px;
+margin-left: 40px;
 }
 
+#center{
+text-align:center;
+}
+#right{
+text-align:right;
+}
+
+#picture{
+text-align: center;
+}
+
+figure{
+display: inline-block;
+}
+figcaption{ color:white;}
 #white{
-    color:white;
+color:white;}
+
+#map{ 
+ margin: 0 auto 0 auto;   
+ }
+
+#picture{
+text-align: center;
+display: block;}
+
+#button{
+margin-left: -5px;
+width: 143px;
 }
 
-:after,:before  *{
-box-sizing:inherit; 
+#footer{
+height:150px;  
+}
+
+p.groove {
+    border: #010101 outset 5px;
+    border-top: #808080 outset 5px;
+    width: 144px;
 }
